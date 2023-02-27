@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Argodep/Applied-Machine-Learning/Assignment%202/mlruns/0/60f1dd9bfe704f349d917d9b938d36a1/artifacts
+end_time: 1677539809411
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 60f1dd9bfe704f349d917d9b938d36a1
+run_name: whimsical-shrike-552
+run_uuid: 60f1dd9bfe704f349d917d9b938d36a1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1677539806848
+status: 3
+tags: []
+user_id: Argodep

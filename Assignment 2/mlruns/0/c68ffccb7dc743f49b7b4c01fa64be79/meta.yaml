@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Argodep/Applied-Machine-Learning/Assignment%202/mlruns/0/c68ffccb7dc743f49b7b4c01fa64be79/artifacts
+end_time: 1677539814365
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c68ffccb7dc743f49b7b4c01fa64be79
+run_name: shivering-grub-817
+run_uuid: c68ffccb7dc743f49b7b4c01fa64be79
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1677539811893
+status: 3
+tags: []
+user_id: Argodep

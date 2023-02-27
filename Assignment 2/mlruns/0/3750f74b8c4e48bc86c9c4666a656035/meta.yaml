@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Argodep/Applied-Machine-Learning/Assignment%202/mlruns/0/3750f74b8c4e48bc86c9c4666a656035/artifacts
+end_time: 1677539777997
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3750f74b8c4e48bc86c9c4666a656035
+run_name: blushing-eel-63
+run_uuid: 3750f74b8c4e48bc86c9c4666a656035
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1677539775860
+status: 3
+tags: []
+user_id: Argodep
