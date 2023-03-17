@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .input-field{
+            width: 500px;
+            height: 150px;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            background-color: #f8f8f8;
+            resize: none;
+        }
+
+        .bd{
+            background-image: linear-gradient(to right, rgb(100, 100, 100), rgb(200, 200, 200));
+        }
+
+        .frm-container{             
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: large;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding-top: 30px;
+        }
+
+        .title{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding-top: 30px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .ans{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding-top: 10px;
+        }
+    </style>
+
+    <title> Spam Detection </title>
+</head>
+<body class="bd">
+    <h3>Result:</h3>
+    <h3 class="ans1"><b> 
+        {{ans1}}
+    </b></h3>
+    <h3 class="ans2"><b> 
+        {{ans2}}
+    </b></h3>
+    <h3 class="ans3"><b> 
+        {{ans3}}
+    </b></h3>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .input-field{
+            width: 500px;
+            height: 50px;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            background-color: #f8f8f8;
+            resize: none;
+        }
+
+        .bd{
+            background-image: linear-gradient(to right,rgb(100, 100, 100),rgb(200, 200, 200));
+        }
+
+        .frm-container{             
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: large;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding-top: 30px;
+        }
+
+        .title{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding-top: 30px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .ans{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding-top: 10px;
+        }
+    </style>
+
+    <title> Spam Detection </title>
+</head>
+<body class="bd">
+    <div class="frm-container">
+        <form action="{{ url_for('spam')}}" method="post">
+            <center>
+                <h2 class="inpt_text">Enter Text</h4>
+                <p>
+                    <textarea class="input-field" id="text" name="text" rows="4" cols="50" required></textarea>
+                </p>
+                
+                <p>
+                    <button type="submit" id="btn" class="btn btn-primary">See result </button>
+                </p>
+            </center>
+        </form>
+    </div>
+  
+</body>
+</html>
