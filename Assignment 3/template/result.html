@@ -33,26 +33,45 @@
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         }
 
-        .ans{
+        .text{
             display: flex;
             flex-direction: row;
             justify-content: center;
             padding-top: 10px;
+            font-size: 40px;
         }
+
+        .label{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding-top: 10px;
+            font-size: 40px;
+        }
+
+        .propensity{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding-top: 10px;
+            font-size: 40px;
+        }
+
+        h1 {text-align: center; }
     </style>
 
     <title> Spam Detection </title>
 </head>
 <body class="bd">
-    <h3>Result:</h3>
-    <h3 class="ans1"><b> 
-        {{ans1}}
+    <h1><center>Result:</h1>
+    <h3 class="text"><b> 
+        {{text}}
     </b></h3>
-    <h3 class="ans2"><b> 
-        {{ans2}}
+    <h3 class="label"><b> 
+        {{label}}
     </b></h3>
-    <h3 class="ans3"><b> 
-        {{ans3}}
+    <h3 class="propensity"><b> 
+        {{propensity}}
     </b></h3>
 </body>
 </html>

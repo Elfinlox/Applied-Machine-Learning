@@ -29,10 +29,10 @@ def spam():
     label, propensity = score(text, spam_detectorNB, threshold)
     propensity = round(propensity, 3)
     label = "Spam" if label == 1 else "Not spam"
-    ans1 = f"""The input text: {text}"""
-    ans2 = f"""The prediction: {label}""" 
-    ans3 = f"""The propensity score: {propensity}"""
-    return render_template('result.html', ans1 = ans1, ans2 = ans2, ans3 = ans3)
+    text1 = f"""The input text: {text}"""
+    label1 = f"""The prediction: {label}""" 
+    propensity1 = f"""The propensity score: {propensity}"""
+    return render_template('result.html', text = text1, label = label1, propensity = propensity1)
 
 if __name__ == '__main__': 
     app.run(debug=True)

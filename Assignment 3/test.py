@@ -79,19 +79,12 @@ def test_flask():
         # Launch the Flask app using os.system
         os.system('python app.py')
 
-        # Wait for the app to start up
-        time.sleep(1)
-
-        # Make a request to the endpoint
+        # Make a request
         response = requests.get('http://127.0.0.1:5000/')
         print(response.status_code)
 
-        test_pred_value()
-
-        # Assert that the response is what we expect
         assert response.status_code == 200
-
         assert type(response.text) == str
 
-        # Shut down the Flask app using os.system
+        # Shut down the Flask app
         os.kill(os.getpid(), signal.SIGINT)
