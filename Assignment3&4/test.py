@@ -1,4 +1,5 @@
-import os, time, requests
+import os, time
+import requests
 import pickle
 import numpy as np
 
@@ -9,9 +10,9 @@ app = Flask(__name__, template_folder = './template')
 
 # Importing Model
 
-nb_path = "./models/nb_model.sav"
-lr_path = "./models/lr_model.sav"
-rf_path = "./models/rf_model.sav"
+nb_path = "C:/Users/Argodep/Applied-Machine-Learning/Assignment3&4/models/nb_model.sav"
+lr_path = "C:/Users/Argodep/Applied-Machine-Learning/Assignment3&4/models/lr_model.sav"
+rf_path = "C:/Users/Argodep/Applied-Machine-Learning/Assignment3&4/models/rf_model.sav"
 
 spam_detectorNB = pickle.load(open(nb_path, "rb"))
 spam_detectorLR = pickle.load(open(lr_path, "rb"))

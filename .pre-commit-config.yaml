@@ -6,7 +6,8 @@ repos:
     hooks:
       - id: test
         name: test
-        entry: python test.py
+        entry: python Assignment3&4/test.py -v
         language: python
+        additional_dependencies: [requests, numpy, flask, nltk, scikit_learn]
         pass_filenames: false
         always_run: true

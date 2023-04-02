@@ -7,12 +7,12 @@ from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 
 # Importing Count Vectorizer and Word Vector
-vec_path = "./models/word_vec.sav"
-tfidf_path = "./models/tfidf.sav"
+vec_path = "C:/Users/Argodep/Applied-Machine-Learning/Assignment3&4/models/word_vec.sav"
+tfidf_path = "C:/Users/Argodep/Applied-Machine-Learning/Assignment3&4/models/tfidf.sav"
 
-nb_path = "./models/nb_model.sav"
-lr_path = "./models/lr_model.sav"
-rf_path = "./models/rf_model.sav"
+nb_path = "C:/Users/Argodep/Applied-Machine-Learning/Assignment3&4/models/nb_model.sav"
+lr_path = "C:/Users/Argodep/Applied-Machine-Learning/Assignment3&4/models/lr_model.sav"
+rf_path = "C:/Users/Argodep/Applied-Machine-Learning/Assignment3&4/models/rf_model.sav"
 
 word_vec = pickle.load(open(vec_path, "rb"))
 tfidf = pickle.load(open(tfidf_path, "rb"))
